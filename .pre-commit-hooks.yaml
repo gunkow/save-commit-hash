@@ -3,4 +3,4 @@
   description: save commit hash and other stats
   language: script
   entry: save-commit-hash.sh
-  rev: v0.1
+  rev: master
