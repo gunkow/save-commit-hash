@@ -2,4 +2,4 @@
   name: save commit hash
   description: save commit hash and other stats
   language: script
-  entry: save-commit-hash.sh
+  entry: ./save-commit-hash.sh
