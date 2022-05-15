@@ -1,3 +1,5 @@
+#!/bin/bash
+
 commit=$(git log -1 --pretty="%H%n%ci") # hash \n date
 commit_hash=$(echo "$commit" | head -1)
 commit_date=$(echo "$commit" | head -2 | tail -1) # 2022-12-28 05:55:55 +0300
