@@ -9,4 +9,4 @@ branch_name=${branch_name##refs/heads/}
 branch_name=${branch_name:-HEAD} # 'HEAD' indicates detached HEAD situation
 
 # Write it
-echo "prev_commit='$commit_hash'\ndate='$commit_date'\nbranch='$branch_name'\n" > commit-hash.txt
+printf "commit='$commit_hash'\ndate='$commit_date'\nbranch='$branch_name'\n" > commit-hash.txt
