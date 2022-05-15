@@ -2,4 +2,4 @@ repos:
   - repo: https://github.com/gunkow/save-commit-hash
     rev: 0.1
     hooks:
-      - id: isort
+      - id: save-commit-hash
